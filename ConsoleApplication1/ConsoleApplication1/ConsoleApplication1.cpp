@@ -32,17 +32,6 @@ int GetRandomNumber(int min, int max)
     return min + rand() % (max - min + 1);
 }
 
-//bool UnitTest()
-//{
-//    bool *bools{ new bool[100] {} };
-//
-//    for (int i = 0; i < sizeof(bools); i++)
-//    {
-//        if (GetRandomNumber(0, 100) > 70)
-//            bools[i] = false;
-//    }
-//    return false;
-//}
 
 // Функция для проведения голосования
 void conductElection(vector<Candidate>& candidates) {
