@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//создал ветку
 
 // Структура для хранения информации о кандидате
 struct Candidate {
